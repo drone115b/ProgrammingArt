@@ -4,8 +4,8 @@ import multiprocessing
 
 class KS:
     def __init__(self, Pi, Pj):
-        self.x = (818521565764447.0 ** 0.5)/33422194.0
-        self.y = (201069523723500.0 ** 0.5)/21646243.0
+        self.x = (130704498139423.0 ** 0.5)/17453848.0
+        self.y = (376969570242446.0 ** 0.5)/22680362.0
         self.sx = (Pj * self.x) % 1.0
         self.sy = (Pi * self.y) % 1.0
 
